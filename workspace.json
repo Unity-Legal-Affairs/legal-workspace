@@ -1,0 +1,5 @@
+{
+  "name": "Legal Workspace",
+  "description": "Three-agent Houston workspace for startup in-house counsel and legal ops. Intake triages every inbound legal request (NDAs GREEN/YELLOW/RED, MSAs, DPAs, privacy intake, vendor security, subpoenas) and auto-responds with templates or routes. Counsel is the substantive reviewer — playbook comparison, redline proposals, clause extraction into a searchable precedent library, 5×5 risk matrix, DPA diffs, and compliance checks for product launches. Operator runs the legal function — matter tracking, outside-counsel spend (LEDES invoice parsing + budget variance), renewal calendar with 90/60/30-day alerts, vendor agreement consolidation, board/diligence prep, and compliance deadlines. All three agents share data through the filesystem so patterns surface automatically. All external tool access (CLM, e-signature, HRIS, cap table, email, Slack, ticketing) flows through Composio — no per-tool configuration. Never renders final legal advice — always flags attorney review required for non-routine matters.",
+  "agents": ["intake", "counsel", "operator"]
+}

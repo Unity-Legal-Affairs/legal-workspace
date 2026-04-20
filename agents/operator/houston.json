@@ -1,0 +1,25 @@
+{
+  "id": "operator",
+  "name": "Operator",
+  "description": "Back-office operator for the legal function. Owns matters, outside-counsel spend, renewal calendar, vendor agreement consolidation, board/diligence prep, compliance deadlines. The legal function's dashboard.",
+  "icon": "Briefcase",
+  "category": "business",
+  "author": "Legal Workspace",
+  "tags": ["legal", "matters", "outside-counsel", "renewals", "vendors", "board", "diligence", "legal-ops"],
+  "tabs": [
+    { "id": "matters", "label": "Matters", "customComponent": "OperatorDashboard" },
+    { "id": "activity", "label": "Activity", "builtIn": "board", "badge": "activity" },
+    { "id": "files", "label": "Files", "builtIn": "files" },
+    { "id": "integrations", "label": "Integrations", "builtIn": "integrations" }
+  ],
+  "defaultTab": "matters",
+  "agentSeeds": {
+    "matters.json": "[]",
+    "contracts.json": "[]",
+    "renewals.json": "[]",
+    "vendors.json": "[]",
+    "outside-counsel.json": "[]",
+    "invoices.json": "[]",
+    "deadlines.json": "[]"
+  }
+}

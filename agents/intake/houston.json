@@ -1,0 +1,22 @@
+{
+  "id": "intake",
+  "name": "Intake",
+  "description": "Front door for legal. Triages every inbound request, classifies NDAs GREEN/YELLOW/RED, drafts template responses, opens matters, routes substantive reviews to Counsel. Never sends — always drafts.",
+  "icon": "Mailbox",
+  "category": "business",
+  "author": "Legal Workspace",
+  "tags": ["legal", "intake", "triage", "nda", "in-house-counsel", "legal-ops"],
+  "tabs": [
+    { "id": "queue", "label": "Queue", "customComponent": "IntakeDashboard" },
+    { "id": "activity", "label": "Activity", "builtIn": "board", "badge": "activity" },
+    { "id": "files", "label": "Files", "builtIn": "files" },
+    { "id": "integrations", "label": "Integrations", "builtIn": "integrations" }
+  ],
+  "defaultTab": "queue",
+  "agentSeeds": {
+    "queue.json": "[]",
+    "templates.json": "[]",
+    "routing-rules.json": "[]",
+    "ndas.json": "[]"
+  }
+}

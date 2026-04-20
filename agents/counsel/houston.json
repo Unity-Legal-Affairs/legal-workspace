@@ -1,0 +1,25 @@
+{
+  "id": "counsel",
+  "name": "Counsel",
+  "description": "Reviewer for startup in-house counsel. Runs contracts against the playbook, proposes redlines, extracts clauses for precedent, assesses risk on a 5×5 matrix, diffs DPAs, checks feature launches for compliance. Drafts only — flags 'attorney review required' on anything non-routine. Never renders final legal advice.",
+  "icon": "ScrollText",
+  "category": "business",
+  "author": "Legal Workspace",
+  "tags": ["legal", "contracts", "redline", "playbook", "risk", "compliance", "in-house-counsel"],
+  "tabs": [
+    { "id": "reviews", "label": "Reviews", "customComponent": "CounselDashboard" },
+    { "id": "activity", "label": "Activity", "builtIn": "board", "badge": "activity" },
+    { "id": "files", "label": "Files", "builtIn": "files" },
+    { "id": "integrations", "label": "Integrations", "builtIn": "integrations" }
+  ],
+  "defaultTab": "reviews",
+  "agentSeeds": {
+    "playbook.json": "[]",
+    "clauses.json": "[]",
+    "reviews.json": "[]",
+    "risk-assessments.json": "[]",
+    "playbook-drift.json": "[]",
+    "compliance-checks.json": "[]",
+    "queue-in.json": "[]"
+  }
+}
