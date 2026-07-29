@@ -105,8 +105,5 @@ Cross-agent reads and writes use relative paths: Counsel reads `../intake/queue.
 
 ## Prior art
 
-The Intake `nda-traffic-light` skill and Counsel's `risk-assess` 5×5 matrix adapt patterns from [Anthropic's legal knowledge-work plugin](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal). The filling gaps Anthropic's plugin left open — matter management, clause library / precedent capture, outside-counsel spend, reactive dashboards, cross-agent handoffs — are the reason this workspace exists.
+The Intake `nda-traffic-light` skill and Counsel's `risk-assess` 5×5 matrix adapt patterns from [Anthropic's legal knowledge-work plugin](https://github.com/Unity-Legal-Affairs/knowledge-work-plugins/tree/main/legal). The filling gaps Anthropic's plugin left open — matter management, clause library / precedent capture, outside-counsel spend, reactive dashboards, cross-agent handoffs — are the reason this workspace exists.
 
-## License
-
-MIT.
