@@ -1,6 +1,6 @@
 # Legal Workspace
 
-A three-agent Houston workspace for **startup in-house counsel and legal ops** — the solo GC at a Series A-C startup wearing every hat, and the legal ops manager at a later-stage company running the function. Designed for the overlap: contract lifecycle, vendor and outside-counsel management, compliance deadline tracking, and knowledge capture.
+A three-agent workspace for **startup in-house counsel and legal ops** — the solo GC at a Series A-C startup wearing every hat, and the legal ops manager at a later-stage company running the function. Designed for the overlap: contract lifecycle, vendor and outside-counsel management, compliance deadline tracking, and knowledge capture.
 
 ## Who this is for
 
